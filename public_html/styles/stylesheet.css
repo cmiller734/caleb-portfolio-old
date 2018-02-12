@@ -1,0 +1,119 @@
+/*------stylesheet for main Web Development site-------*/
+
+/*------default element styles-------*/
+* {
+	background-color: #FAEBD7;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-size: 20px;
+}
+
+body 
+{
+	line-height: 2em;
+	/*background-repeat:no-repeat;*/
+	font-family:"Arial", cursive, sans-serif;
+	color: black;
+}
+
+header
+{
+	padding-bottom: 1px;
+	height:300px;
+}
+
+footer
+{
+	width: 100%;
+	/*margin-left:35%;
+	padding:50px;*/
+	/*position: absolute;*/
+	bottom: 0px;
+	text-align:center;
+	height: 50px;
+	/*margin: auto;
+	/*margin-right: auto;
+	left: 0;
+	right: 0;*/
+}
+
+h1, h2, h3, h4 
+{
+	font-family:"Times New Roman", Times, serif;
+	font-weight:bold;
+}
+
+table
+{ 
+	border: 1px solid gray;
+}
+
+td 
+{
+	border: 1px solid gray; 
+    padding:10px;
+}
+
+/*------------ID's-----------------*/
+
+#pro_photo
+{
+	 height: 300px; 
+	 width: 300px;
+}
+
+/*------------classes---------------*/
+.list
+{
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.textcontent
+{
+	margin-top:10px;
+	margin-left:10px;
+}
+
+.indent_right
+{
+	margin-top:4px;
+	margin-left:100px;
+}
+
+.float_right
+{
+	float: right;
+}
+
+.float_left
+{
+	float: left;
+}
+
+.image {
+	margin: 10px;
+}
+
+/*--------------manipulating lists------------------------*/
+
+.nobulletlist
+{
+	list-style-type: none;
+}
+
+/*--------------simple modifications to text---------------*/
+
+.bigtext
+{
+	font-size:200%;
+	margin-bottom:-20px;
+}
+
+.centeredtext
+{
+	display: block;
+	text-align:center;
+	list-style-position:inside;
+}
